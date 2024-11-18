@@ -1,0 +1,58 @@
+<div class="container">
+  <div class="row">
+<form class="example-form">
+  <table class="example-full-width" cellspacing="0"><tr>
+    <td><mat-form-field class="example-full-width">
+      <mat-label>First name</mat-label>
+      <input matInput>
+    </mat-form-field></td>
+    <td><mat-form-field class="example-full-width">
+      <mat-label>Contact-Number</mat-label>
+      <input matInput>
+    </mat-form-field></td>
+  </tr></table>
+  <tr><td>
+    <mat-form-field class="example-full-width">
+      <mat-label>Item Purchased</mat-label>
+      <input matInput>
+    </mat-form-field>
+  </td>
+  <td></td></tr>
+
+  <p>
+    <mat-form-field class="example-full-width">
+      <mat-label>Address</mat-label>
+      <textarea matInput placeholder="Ex. 100 Main St"></textarea>
+    </mat-form-field>
+  </p>
+
+  <table class="example-full-width" cellspacing="0"><tr>
+    <td><mat-form-field class="example-full-width">
+      <mat-label>LGA</mat-label>
+      <input matInput placeholder="Ex. Dala Local Government">
+    </mat-form-field></td>
+    <td><mat-form-field class="example-full-width">
+      <mat-label>State</mat-label>
+      <input matInput placeholder="Ex. Kano">
+    </mat-form-field></td>
+  </tr>
+  <tr>
+    <td><mat-form-field class="example-full-width">
+      <mat-label>Postal Code</mat-label>
+      <input matInput #postalCode maxlength="7" placeholder="Ex. 700214" value="94043">
+    </mat-form-field></td>
+  </tr>
+  <tr>
+
+    <td id="button">
+      <button mat-fab extended id="Orderbutton">Submit</button>
+    </td>
+    <td id="button">
+      <button mat-fab extended id="Orderbutton">Clear</button>
+    </td>
+  </tr>
+</table>
+
+</form>
+</div>
+</div>

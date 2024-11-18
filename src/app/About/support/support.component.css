@@ -1,0 +1,10 @@
+.row{
+  margin: 10px;
+  justify-content: center;
+}
+.example-stretched-tabs {
+  max-width: 800px;
+}
+section{
+margin: 10px;
+}
